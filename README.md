@@ -12,10 +12,10 @@ Key Learnings include:
 Key Takeaways:
 -	Audience will be able to apply gained knowledge to save money for the customers who are running training jobs on Azure or on premises.
 
-
-Step 1: Environment Setup (AKS + Spot VM Nodepool)
-Step 2: Adjust script for Elastic training 
-Step 3: Run Notebook script  (GPT-2) Torch Elastic training on Spot VM Pool
-Step 4: Simulate node down and verify training is unaffected
+# Lab Steps
+- Step 1: Environment Setup (AKS + Spot VM Nodepool)
+- Step 2: Adjust script for Elastic training 
+- Step 3: Run Notebook script  (GPT-2) Torch Elastic training on Spot VM Pool
+- Step 4: Simulate node down and verify training is unaffected
 
 
