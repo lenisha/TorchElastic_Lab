@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\kubeflow"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\elastic"
+		}
+	],
+	"settings": {
+		"ai.azureml.defaultWorkspaceId": "/subscriptions/f869415f-5cff-46a3-b728-20659d14d62d/resourceGroups/aml/providers/Microsoft.MachineLearningServices/workspaces/pytorch-el"
+	}
+}
