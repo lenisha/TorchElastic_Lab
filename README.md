@@ -15,7 +15,7 @@ Key Takeaways:
 # Lab Steps
 - [Step 1](/Step1-Setup.md): Environment Setup (AKS + Spot VM Nodepool) and Torch Elastic
 - Step 2: Adjust script for Elastic training 
-- [Step 3](/Step1-Setup.md): Run Notebook script  (ImageNet) Torch Elastic training on Spot VM Pool
-- Step 4: Simulate node down and verify training is unaffected
+- [Step 3](/Step3-RunJob.md): Run Notebook script  (ImageNet) Torch Elastic training on Spot VM Pool
+- [Step 4](/Step4-SimulateStop.md): Simulate node down and verify training is unaffected
 
 

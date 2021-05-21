@@ -23,7 +23,7 @@ spec:
             operator: "Equal"
             value: "spot"
             effect: "NoSchedule"
-            volumes:
+           
           volumes:  
           - name: trainingdata
             persistentVolumeClaim:
