@@ -3,7 +3,7 @@
 To run this Lab you will need Jupiter Notebook environment, we recomment to use 
 
 - VS Code with Windows Sybsystem for Linux. Follow steps descibed in [Remote development in WSL](https://code.visualstudio.com/docs/remote/wsl-tutorial) to setup environment.
-- Install Pyton extension in VS Code as decribed in [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
+- Install Python and Python extension in VS Code as decribed in [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 
 Another options include
 - Spinning up Linux DSVM in Azure - [Set up the Data Science Virtual Machine for Linux](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro)
@@ -44,4 +44,4 @@ sudo apt-get install -y kubectl
   ## Run the Notebooks
 
   - Clone this github repo
-  - Open [Step 1](/Step1-Setup.ipynb) Infastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
+  - Open [Step 1](/Step1-Setup.ipynb) Kubernetes Infrastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
