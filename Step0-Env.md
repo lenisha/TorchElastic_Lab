@@ -15,22 +15,22 @@ Another options include
 Install following tools in WSL (or other Linux environment you havechosen)
 
 - Azure CLI - [Install the Azure CLI on Linux](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
-```
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-```
+  ```sh
+  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+  ```
 
 - Kubectl - [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
-```
-sudo apt-get update
-sudo apt-get install -y apt-transport-https ca-certificates curl
-sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
-echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
-sudo apt-get update
-sudo apt-get install -y kubectl
-```
+  ```sh
+  sudo apt-get update
+  sudo apt-get install -y apt-transport-https ca-certificates curl
+  sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+  sudo apt-get update
+  sudo apt-get install -y kubectl
+  ```
 
 - Helm - [Installing Helm](https://helm.sh/docs/intro/install/#from-apt-debianubuntu)
-   ```
+   ```sh
    curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
    sudo apt-get install apt-transport-https --yes
    echo "deb https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
@@ -44,4 +44,4 @@ sudo apt-get install -y kubectl
   ## Run the Notebooks
 
   - Clone this github repo
-  - Open [Step 1](/Step1-Setup.ipynb) Kubernetes Infrastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
+  - Open [Step 1 Kubernetes Infrastructure Setup](/Step1-Setup.ipynb) Kubernetes Infrastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
