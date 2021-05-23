@@ -30,6 +30,7 @@ In this lab you will build Cloud Native infrastrucure required for running distr
 
 # What you'll need
 
+- A basic understanding of Kubernetes will be helpful but not necessary 
 - Azure Subscription with quota for GPU cores
 - Linux environment - Windows Sybsystem for Linux or DSVM or Azure ML Compute instance
 - Azure CLI
