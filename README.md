@@ -37,7 +37,7 @@ In this lab you will build Cloud Native infrastrucure required for running distr
 
 # Lab Steps
 - [Step 0](/Step0-Env.md): Lab Environment Setup 
-- [Step 1](/Step1-Setup.md): Infrastructure Setup (AKS + Spot VM Nodepool) and Torch Elastic
+- [Step 1](/Step1-Setup.ipynb): Infrastructure Setup (AKS + Spot VM Nodepool) and Torch Elastic
 - [Step 2](https://pytorch.org/elastic/0.2.2/train_script.html): Adjust script for Elastic training 
 - [Step 3](/Step3-RunJob.md): Run Notebook script  (ImageNet) Torch Elastic training on Spot VM Pool
 - [Step 4](/Step4-SimulateStop.md): Simulate node down and verify training is unaffected
@@ -45,4 +45,5 @@ In this lab you will build Cloud Native infrastrucure required for running distr
 
 ## References
 [Torch Elastic Docs](https://pytorch.org/elastic/0.2.2/index.html)
+
 [Azure Spot VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms)

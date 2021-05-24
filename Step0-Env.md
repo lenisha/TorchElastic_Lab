@@ -44,4 +44,5 @@ Install following tools in WSL (or other Linux environment you havechosen)
   ## Run the Notebooks
 
   - Clone this github repo
-  - Open [Step 1 Kubernetes Infrastructure Setup](/Step1-Setup.ipynb) Kubernetes Infrastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
+  
+  Open [Step 1 Kubernetes Infrastructure Setup](/Step1-Setup.ipynb) Kubernetes Infrastructure Setup in VS Code (or Jypiter server you setup in  DVSM, AML)
