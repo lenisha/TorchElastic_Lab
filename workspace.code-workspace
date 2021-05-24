@@ -1,13 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "..\\kubeflow"
-		},
-		{
 			"path": "."
-		},
-		{
-			"path": "..\\elastic"
 		}
 	],
 	"settings": {
