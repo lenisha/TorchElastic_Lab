@@ -7,10 +7,10 @@ spec:
   # Use "etcd-service:2379" if you already apply etcd.yaml
   rdzvEndpoint: "etcd-service:2379"
   minReplicas: 1
-  maxReplicas: 2    
+  maxReplicas: 3   
   replicaSpecs:
     Worker:
-      replicas: 2
+      replicas: 3
       restartPolicy: ExitCode
       template:
         apiVersion: v1
