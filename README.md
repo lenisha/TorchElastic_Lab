@@ -18,12 +18,12 @@ Upon completion, your infrastructure will contain:
 
 
 # What you'll learn
-In this lab you will build Cloud Native infrastrucure required for running distributed Pytorch jobs, deploy Kubernetes components such as Redezevous ETCD server and Torch Elastic Kubernetes operator and run the training. Leraning include
+In this lab you will build Cloud Native infrastructure required for running distributed Pytorch jobs, deploy Kubernetes components such as Rendezvous ETCD server and Torch Elastic Kubernetes operator and run the training. Learning include
 
 -	How to train large scale PyTorch model on a cluster of low cost Spot VMs while retaining job reliability.
 -	How to run elastic distributed Pytorch training on Kubernetes with TorchElastic operator 
 -	Leverage Kubernetes auto-scaling for elastic training jobs to shorten time for training
--   Simulate Azure Spot VM eviction and verify elastic training job is not failing
+- Simulate Azure Spot VM eviction and verify elastic training job is not failing
 
 ## Key Takeaways:
 -	Audience will be able to apply gained knowledge to save money for the customers who are running training jobs on Azure or on premises.
