@@ -9,11 +9,7 @@ The focus of [PyTorch Elastic](https://github.com/pytorch/elastic), which uses E
 ## Script Changes
 Following typical changes are needed in the training script to make it run with Elastic training. Example is in `examples/imagenet/main.py`
 
-Import Module  torch.distributed.elastic ??
-
-DataLoader ???
-
-torch.distributed.init_process_group ??
+DataLoader uses ElasticDistributedSampler instead of RandomSampler or DistributedSampler. Elastic Distributed Sampler is derived from Distributed Sampler and guarantess each worker will load Dataset that is exclusive to that worker. [Source code](https://github.com/pytorch/pytorch/blob/master/torch/distributed/elastic/utils/data/elastic_distributed_sampler.py)
 
 Save/Restore checkpoints?
 
