@@ -15,7 +15,7 @@ Upon completion, your infrastructure will contain:
   - **CPU VM nodepool** for running Rendezevous server - training control plane
 - Azure Storage Account for hosting training data and model training checkpoints
 - Notebooks that create infrastructure and run training jobs 
-
+![architecure](docs/architecture.jpg)
 
 # What you'll learn
 In this lab you will build Cloud Native infrastructure required for running distributed Pytorch jobs, deploy Kubernetes components such as Rendezvous ETCD server and Torch Elastic Kubernetes operator and run the training. Learning include
