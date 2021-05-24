@@ -14,7 +14,7 @@ spec:
     readOnly: false
     volumeHandle: trainingdata  # make sure this volumeid is unique in the cluster
     volumeAttributes:
-      containerName: workerdata
+      containerName: workerdata # Modify if changed in Notebook
     nodeStageSecretRef:
       name: azure-blobsecret
       namespace: elastic-job

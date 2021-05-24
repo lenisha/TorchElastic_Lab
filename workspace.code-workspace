@@ -12,6 +12,8 @@
 	],
 	"settings": {
 		"ai.azureml.defaultWorkspaceId": "/subscriptions/f869415f-5cff-46a3-b728-20659d14d62d/resourceGroups/aml/providers/Microsoft.MachineLearningServices/workspaces/pytorch-el",
-		"jupyter.jupyterServerType": "local"
+		"jupyter.jupyterServerType": "local",
+		"python.pythonPath": "/bin/python",
+		"jupyter.jupyterCommandLineArguments": []
 	}
 }
