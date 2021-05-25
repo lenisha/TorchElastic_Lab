@@ -1,4 +1,4 @@
-# MLADS_Spring_2021_TorchElastic_Lab
+# Elastic PyTorch training on Kubernetes Self Serve Lab
 
 This lab introduces elastic fault tolerant distributed Pytorch training on Kubernetes. With larger and larger models being trained, the need to scale out to a distributed cluster is increasingly important. Distributed training on multiple high performance computing instances can significantly reduce the time to train modern deep neural networks with large dataset. Running training on low cost [**Azure Spot VMs**](https://docs.microsoft.com/en-us/azure/virtual-machines/spot-vms) will further cut the costs.
 
